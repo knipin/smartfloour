@@ -1,4 +1,5 @@
 app_main.cpp
+```
 #include <esp_log.h>
 #include <freertos/FreeRTOS.h>
 #include <freertos/task.h>
@@ -394,3 +395,4 @@ extern "C" void app_main() {
 
     ESP_LOGI(TAG, "app_main finished. Device is running.");
 }
+```
